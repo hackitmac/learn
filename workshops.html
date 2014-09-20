@@ -4,3 +4,9 @@ title: Workshops
 permalink: /workshops/
 ---
 <h1>Workshops</h1>
+
+{% for workshop in site.workshops %}
+test
+<br>
+<a href="{{ workshop.url }}" itemprop="url">{{ workshop.url }}</a>
+{% endfor %}

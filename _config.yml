@@ -3,3 +3,8 @@ name: "Learn"
 
 # Build settings
 exclude: ['README.md']
+
+collections:
+  workshops:
+    output: true
+    permalink: /:path/
