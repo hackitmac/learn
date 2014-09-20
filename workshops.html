@@ -8,5 +8,5 @@ permalink: /workshops/
 {% for workshop in site.workshops %}
 test
 <br>
-<a href="{{ workshop.url }}" itemprop="url">{{ workshop.url }}</a>
+<a href="{{ site.baseurl }}{{ workshop.url }}" itemprop="url">{{ workshop.url }}</a>
 {% endfor %}
