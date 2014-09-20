@@ -1,0 +1,5 @@
+#title of the site; shows in the header
+name: "Learn"
+
+# Build settings
+exclude: ['README.md']
