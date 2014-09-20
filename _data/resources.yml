@@ -1,21 +1,21 @@
-- collection: HTML
+- name: HTML
   description: "Dictates the structure and contents of every web page on the internet. Lets you put text and images on a web page; if you want to make a web site, start here."
   resources:
-  - resource: HTML Dog
+  - name: HTML Dog
     description: "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
     link: http://www.htmldog.com/guides/html/
 
-  - resource: HTML Dog
+  - name: HTML Dog
     description: "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
     link: http://www.htmldog.com/guides/html/
 
-- collection: CSS
+- name: CSS
   description: "The code that styles HTML: dictates look, layout, and general presentation. Once you've laid out your content using HTML, use CSS to make it look good."
   resources:
-  - resource: HTML Dog
+  - name: HTML Dog
     description: "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
     link: http://www.htmldog.com/guides/html/
 
-  - resource: HTML Dog
+  - name: HTML Dog
     description: "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
     link: http://www.htmldog.com/guides/html/

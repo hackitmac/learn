@@ -1,0 +1,22 @@
+---
+layout: default
+title: Resources
+permalink: /resources/
+---
+<h1>Resources</h1>
+
+{% for collection in site.data.resources %}
+  <h2>{{collection.name}}</h2>
+  <p>{{collection.description}}<p>
+
+  <br>
+
+  {% for resource in collection.resources %}
+    <h3>{{resource.name}}</h3>
+    <p>{{resource.description}}<p>
+    {{resource.link}}
+  {% endfor %}
+
+  <br>
+
+{% endfor %}
