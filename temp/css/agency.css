@@ -127,6 +127,16 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
+    float:left
+}
+
+.wrapper2 {
+float: center;
+}
+
+#intro-heading-2 {
+    position:relative;
+left:50%
 }
 
 .btn-xl:hover,
