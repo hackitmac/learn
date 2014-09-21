@@ -5,8 +5,28 @@ permalink: /workshops/
 ---
 <h1>Workshops</h1>
 
+
+{% capture track %} {{site.workshops.first.track}} {% endcapture %}
+{% capture module %} {{site.workshops.first.module}} {% endcapture %}
+
+<h2>{{ track }}</h2>
+<h3>{{ module }}</h3>
+
 {% for workshop in site.workshops %}
-test
 <br>
-<a href="{{ site.baseurl }}{{ workshop.url }}" itemprop="url">{{ workshop.url }}</a>
+{% capture current_track %} {{workshop.track}} {% endcapture %}
+{% capture current_module %} {{workshop.module}} {% endcapture %}
+
+  {% if current_track != track %}
+    <h2>{{ current_track }}</h2>
+    {% capture track %} {{workshop.track}} {% endcapture %}
+  {% endif %}
+
+  {% if current_module != module %}
+    <h3>{{ current_module }}</h3>
+    {% capture module %} {{workshop.module}} {% endcapture %}
+  {% endif %}
+
+  <li><a href="{{ site.baseurl }}{{ workshop.url }}" itemprop="url">{{ workshop.module }}</a></li>
+
 {% endfor %}
