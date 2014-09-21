@@ -55,3 +55,12 @@ header {
   color: white;
   padding: 10px;
 }
+
+img {
+  width: auto;
+  max-height: 100%;
+}
+
+.navbar-nav {
+  font-size: 1.2em;
+}
