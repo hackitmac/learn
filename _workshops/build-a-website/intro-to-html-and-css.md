@@ -1,6 +1,7 @@
 ---
 layout: workshop
-title: Intro to HTML & CSS
+module: Intro to HTML & CSS
+track: Web Developer
 ---
 testing
 ```html
@@ -11,7 +12,7 @@ testing
     <title>Document</title>
 </head>
 <body>
-    
+
 </body>
 </html>
 ```
