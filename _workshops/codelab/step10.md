@@ -33,13 +33,13 @@ Since we're using *bower.json* to keep track of our modules, <span class="keyboa
 
 At the bottom of *index.html*, this should have been added:
 
-```html
+{% highlight html %}
 <script src="bower_components/angular-local-storage/angular-local-storage.js"></script>
-```
+{% endhighlight %}
 
 Your *index.html* scripts block should now look like this:
 
-```html
+{% highlight html %}
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -56,11 +56,11 @@ Your *index.html* scripts block should now look like this:
 <script src="bower_components/angular-local-storage/angular-local-storage.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
-```
+{% endhighlight %}
 
 Edit the `mytodoApp` application module (*scripts/app.js*) to include the `LocalStorageModule` adapter:
 
-```js
+{% highlight js %}
 angular
   .module('mytodoApp', [
     'ngAnimate',
@@ -72,19 +72,19 @@ angular
     'ui.sortable',
     'LocalStorageModule'
 ])
-```
+{% endhighlight %}
 
 While you’re in *app.js*, also configure `localStorageServiceProvider` to use `"ls"` as a localStorage name prefix so your app doesn’t accidently read todos from another app using the same variable names:
 
-```js
+{% highlight js %}
 .config(['localStorageServiceProvider', function(localStorageServiceProvider){
   localStorageServiceProvider.setPrefix('ls');
 }])
-```
+{% endhighlight %}
 
 Our application module should now look like this:
 
-```js
+{% highlight js %}
 'use strict';
 
 angular
@@ -115,18 +115,18 @@ angular
         redirectTo: '/'
       });
   });
-```
+{% endhighlight %}
 
 You will also need to update your controller (*main.js*) to declare a dependency on the localStorage service. Add `localStorageService` as the second parameter in the callback function.
 
-```js
+{% highlight js %}
 'use strict';
 
 angular.module('mytodoApp')
   .controller('MainCtrl', function ($scope, localStorageService) {
     // (code hidden here to save space)
   });
- ```
+{% endhighlight %}
 
 So now, rather than reading our todos from a static array, we’ll be reading it from local storage and then storing it in `$scope.todos` instead.
 
@@ -134,13 +134,13 @@ We’ll also use the angular [`$watch`](http://docs.angularjs.org/api/ng.$rootSc
 
 Therefore, we need to remove the current `$scope.todos` declaration:
 
-```js
+{% highlight js %}
 $scope.todos = [];
-```
+{% endhighlight %}
 
 And replace it with this:
 
-```js
+{% highlight js %}
 var todosInStore = localStorageService.get('todos');
 
 $scope.todos = todosInStore && todosInStore.split('\n') || [];
@@ -148,11 +148,11 @@ $scope.todos = todosInStore && todosInStore.split('\n') || [];
 $scope.$watch('todos', function () {
   localStorageService.add('todos', $scope.todos.join('\n'));
 }, true);
-```
+{% endhighlight %}
 
 We now have a controller that is as follows:
 
-```js
+{% highlight js %}
 'use strict';
 
 angular.module('mytodoApp')
@@ -176,7 +176,7 @@ angular.module('mytodoApp')
     };
 
   });
-```
+{% endhighlight %}
 
 If you look at your app in the browser now you’ll see that there are no items in the todo list. The app is initialising the todos array from local storage and we haven’t given it any todo items yet.
 
