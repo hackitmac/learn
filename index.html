@@ -2,28 +2,44 @@
 layout: default
 title: Learn
 ---
-<hr>
-
-<h3>Do you even hack?</h3>
-<p>
-Hackitmac seeks to nurture student creativity and technological aptitude by creating a community and resources for student developers of all talents and interests.
-</p>
-
-<hr>
-
-<h3>What is a hackathon?</h3>
-
-<p>An event where a bunch of hackers come together in teams with the intention of creating the best type of program (i.e. web app, iPhone app, etc) within a certain period of time. If you do well, you usually end up with job offers, cash money and lots of connections. If you don't do very well, you'll end up with motivation for the next one.</p>
-
-<div id="newsletter">
-  <form method="POST" action="http://hackitmac.us8.list-manage.com/subscribe?u=b39abc3012380d4819ccf3750&amp;id=b127ba37b0">
-    <p>
-    Sign up for our newsletter for info on workshops, social events and more
-    </p>
-    <input type="email" class="form-control" id="newsletter-email" placeholder="Enter email" name="MERGE0">
-      <input type="submit" value="Sign Up!" class="small btn-6">
-  </div>
-  </form>
-</div>
+    <div class="container demo-1">
+      <div class="main clearfix">
+        <form id="nl-form" class="nl-form">
+          I feel to eat 
+          <select>
+            <option value="1" selected>any food</option>
+            <option value="2">Indian</option>
+            <option value="3">French</option>
+            <option value="4">Japanese</option>
+            <option value="2">Italian</option>
+          </select>
+          <br />in a
+          <select>
+            <option value="1" selected>standard</option>
+            <option value="2">fancy</option>
+            <option value="3">hip</option>
+            <option value="4">traditional</option>
+            <option value="2">romantic</option>
+          </select>
+          restaurant
+          <br />at 
+          <select>
+            <option value="1" selected>anytime</option>
+            <option value="1">7 p.m.</option>
+            <option value="2">8 p.m.</option>
+            <option value="3">9 p.m.</option>
+          </select>
+          in <input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>New York</em>"/>
+          <div class="nl-submit-wrap">
+            <button class="nl-submit" type="submit">Find a workshop</button>
+          </div>
+          <div class="nl-overlay"></div>
+        </form>
+      </div>
+    </div><!-- /container -->
+    <script src="js/nlform.js"></script>
+    <script>
+      var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+    </script>
 
 {% include firechat.html %}

@@ -1,8 +1,7 @@
 ---
 layout: workshop
-markdown: 1
-social_text: "Let's Scaffold A Web App With @Yeoman!"
-social_url: http://yeoman.io/codelab.html
+module: Yeoman
+track: Web Developer
 sidebar: sidebars/codelab.html
 ---
 

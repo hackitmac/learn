@@ -54,13 +54,13 @@ header h1 {
   border: 2px solid white;
 }
 
-header {
+/*header {
   background-color: #E74C3C;
   margin: 0 auto;
   min-height: 100px;
   color: white;
   padding: 10px;
-}
+}*/
 
 /*newsletter*/
 #newsletter {
