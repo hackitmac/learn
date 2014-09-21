@@ -5,25 +5,28 @@ permalink: /resources/
 ---
 <h1>Resources</h1>
 
+<div class="panel-group" id="accordion">
 {% for collection in site.data.resources %}
-  <h2>{{collection.name}}</h2>
-  <p>{{collection.description}}<p>
- <form class="navbar-form" role="search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" name="q">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit"><i class="fa fa-chevron-right"></i></button>
-                    </div>
-                </div>
-            </form>
-  <br>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#{{collection.name}}">
+          {{collection.name}}
+        </a>
+      </h4>
 
-  {% for resource in collection.resources %}
-    <h3>{{resource.name}}</h3>
-    <p>{{resource.description}}<p>
-    {{resource.link}}
-  {% endfor %}
+      <p>{{collection.description}}<p>
 
-  <br>
-
+    </div>
+    <div id="{{collection.name}}" class="panel-collapse collapse in">
+      <div class="panel-body">
+        {% for resource in collection.resources %}
+          <h3>{{resource.name}}</h3>
+          <p>{{resource.description}}<p>
+          <a href="{{resource.link}}">{{resource.link}}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 {% endfor %}
+</div>

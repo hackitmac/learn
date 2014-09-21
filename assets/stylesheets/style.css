@@ -3,15 +3,6 @@
 }*/
 
 /*footer*/
-footer {
-  text-align: center;
-  border-top: solid 1px #a6a39f;
-}
-
-footer #contact-info {
-  float: left;
-  padding-right: 1.5em;
-}
 
 /* General Purpose Styles */
 @font-face {
@@ -38,6 +29,10 @@ header nav {
   padding: 20px;
 }
 
+.navbar-form {
+  float: right;
+}
+
 header nav a {
   color: white;
   text-decoration: none;
@@ -54,29 +49,9 @@ header h1 {
   border: 2px solid white;
 }
 
-/*header {
-  background-color: #E74C3C;
+header {
   margin: 0 auto;
   min-height: 100px;
   color: white;
   padding: 10px;
-}*/
-
-/*newsletter*/
-#newsletter {
-  margin: 1rem auto;
-  max-width: 500px;
-}
-
-#newsletter p {
-  margin: 0 auto;
-  font-size: 1rem
-}
-
-#newsletter-email {
-  width: 75%;
-}
-
-#newsletter [class*="btn-"] {
-  width: 20%;
 }
