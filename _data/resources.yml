@@ -51,3 +51,33 @@
   - name: CSS-Tricks
     description: "Dedicated to the world of CSS and related technologies. Snippets, videos, tricks and tutorials."
     link: http://css-tricks.com/
+    
+- name: JavaScript
+  description: "The programming language of the web. If you want your web site/app to move, change, or communicate, learn JavaScript."
+  resources:
+  - name: Codecademy JavaScript Track 
+    description: "Interactive, online tutorial to learn to JavaScript. Best taken after Codecademy's Web Fundamentals track."
+    link: http://www.codecademy.com/tracks/javascript
+
+  - name: Eloquent JavaScript 
+    description: "Eloquent JavaScript is designed for people without any programming experience, and will teach you how to program while also teaching you the ins and outs of JavaScript."
+    link: http://eloquentjavascript.net/contents.html
+    
+  - name: codeschool JavaScript Road Trip 
+    description: "An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files."
+    link: https://www.codeschool.com/courses/javascript-road-trip-part-1
+    
+- name: jQuery
+  description: "A popular (used on more than half of the 10,000 most popular websites) JavaScript library that greatly simplifies client-side scripting. Write less, do more. If you use JavaScript, jQuery will give you cool features and make your life easier."
+  resources:
+  - name: jQuery
+    description: "The documentation on the jQuery official site is superb, and is a great way of getting started learning."
+    link: http://www.jquery.com/
+    
+  - name: Codecademy jQuery Track 
+    description: "Interactive, online tutorial to learn to jQuery. Best after taking the Javascript track."
+    link: http://www.codecademy.com/tracks/jquery
+    
+  - name: 30 Days to Learn jQuery
+    description: "A video series which emails you a video once a day for 30 days in order to provide step-by-step instruction in learning to use jQuery."
+    link: https://tutsplus.com/course/30-days-to-learn-jquery
