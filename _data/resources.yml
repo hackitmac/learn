@@ -97,7 +97,7 @@
     description: "GitHub is a website that hosts git repositories. It lets you store a shared copy of code that you're working on with someone else, as well as see others' code and contribute to open source projects."
     link: http://github.com/
     
-- name: Storage (databases)
+- name: Storage-databases
   description: "If you want to save information when a user leaves your app or coordinate between different users, you need a database of some sort. Here are some good options to get started."
   resources: 
   - name: SQLite
