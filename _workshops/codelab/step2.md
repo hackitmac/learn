@@ -39,7 +39,7 @@ $ sudo npm install --global generator-angular@0.9.2
 
   <p>Along with using <code>npm install</code> directly, you can search for generators via the Yeoman interactive menu. Run <code>yo</code> and select <b>Install a generator</b> to search for published generators.</p>
 
-  <img src="/assets/img/codelab/image_4.png">
+  <img src="/learn/assets/img/codelab/image_4.png">
 
 </div>
 
