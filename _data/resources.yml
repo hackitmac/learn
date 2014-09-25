@@ -5,9 +5,13 @@
     description: "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
     link: http://www.htmldog.com/guides/html/
 
-  - name: HTML Dog
-    description: "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
-    link: http://www.htmldog.com/guides/html/
+  - name: Dive Into HTML5
+    description: "Clearly explains hand-picked features of the latest and greatest version of HTML, HTML5, and how HTML5 compares to earlier HTML standards."
+    link: http://diveintohtml5.info/
+    
+  - name: Mozilla Developer Network 
+    description: "Extensive reference by the organization behind Firefox. If you need any element of HTML explained to you very clearly or in detail, look here."
+    link: https://developer.mozilla.org/en-US/docs/Web/HTML
 
 - name: CSS
   description: "The code that styles HTML: dictates look, layout, and general presentation. Once you've laid out your content using HTML, use CSS to make it look good."
