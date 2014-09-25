@@ -8,9 +8,9 @@ permalink: /resources/
 <div class="panel-group" id="accordion">
 {% for collection in site.data.resources %}
   <div class="panel panel-default">
-    <div class="panel-heading">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#{{collection.name}}">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#{{collection.name}}">
+        <a>
           {{collection.name}}
         </a>
       </h4>
