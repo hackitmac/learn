@@ -4,11 +4,6 @@ em {
   padding-right: 2px;
 }
 
-.highlight > pre,
-code.prettyprint {
-  color: white; /* default color in case offline */
-}
-
 /* Codelab article */
 
 .social {
