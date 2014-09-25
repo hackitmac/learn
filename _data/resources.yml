@@ -111,3 +111,26 @@
   - name: MariaDB (MySQL)
     description: "Another \"relational\" database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for \"MySQL\" nowadays."
     link https://mariadb.org/
+
+- name: Hosting
+  description: "In order for your project to be out on the internet, you need to get it hosted. Here are a bunch of options to do that."
+  resources:
+  - name: Neocities  
+    description: "This site was created to let beginners host websites with static content. Start here if you're just trying to get a web page online!"
+    link: https://neocities.org/
+    
+  - name: GitHub Pages  
+    description: "If you're using GitHub, this is a really easy way to publish a project page."
+    link: http://pages.github.com/
+    
+  - name: Parse 
+    description: "Parse is a cloud app platform with free tiers. Great place to host apps."
+    link: http://www.parse.com/
+    
+  - name: Heroku
+    description: "Heroku is a Platform as a Service (PaaS) provider, which means that they host your apps for you without you having to manage any computers, virtual or otherwise."
+    link: http://www.heroku.com/
+    
+  - name: Amazon Web Services
+    description: "Amazon Web Services (AWS) is a cloud hosting provider that has a bunch of cloud options, the easiest of which is Elastic Cloud Compute (EC2). EC2 just gives you a virtual machine in one of their data centers that you control completely, so it's a very flexible option."
+    link: http://aws.amazon.com/
