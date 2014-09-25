@@ -4,7 +4,7 @@ title: "Learn"
 # Build settings
 exclude: ['README.md']
 
-baseurl: /workshop
+baseurl: /learn
 
 collections:
   workshops:
