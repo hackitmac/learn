@@ -101,15 +101,15 @@
   description: "If you want to save information when a user leaves your app or coordinate between different users, you need a database of some sort. Here are some good options to get started."
   resources: 
   - name: SQLite
-    description: "A \"relational\" database-think about it like an Excel spreadsheet, but stricter, bigger, and more powerful. It might already be installed and it's really easy to set up a database. Note that you'll need to learn the basics of Structured Query Language (SQL) in order to use it."
+    description: "A 'relational' database-think about it like an Excel spreadsheet, but stricter, bigger, and more powerful. It might already be installed and it's really easy to set up a database. Note that you'll need to learn the basics of Structured Query Language (SQL) in order to use it."
     link: http://sqlite.org/quickstart.html
     
   - name: MonogoDB
-    description: "A \"non-relational\" database. You put whole \"objects\" in and can query them in simple or complicated ways. Check out the interactive dmeo!"
+    description: "A 'non-relational' database. You put whole 'objects' in and can query them in simple or complicated ways. Check out the interactive dmeo!"
     link: http://try.mongodb.org/
     
   - name: MariaDB (MySQL)
-    description: "Another \"relational\" database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for \"MySQL\" nowadays."
+    description: "Another 'relational' database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for 'MySQL' nowadays."
     link https://mariadb.org/
 
 - name: Hosting
