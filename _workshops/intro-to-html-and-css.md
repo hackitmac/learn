@@ -29,6 +29,19 @@ We'll be learning to write our own HTML today. But first, let's open an HTML doc
 With the entire folder selected, click Open.
 3. Now that the folder is open in Sublime, click on `blank.html` so that it fills the screen. Now, right click and select Open in Browser.
 
+(If your default browser isn't set to Chrome, [here are the instructions](https://support.google.com/chrome/answer/95417?hl=en).)
+
+####You should see something like this:
+![](http://i.imgur.com/CsIvpo3.png)
+
+###Now, let's make a change to our file and re-open it in our browser.
+1. Try changing something, like the text within the `<p></p>` tags.
+2. Save your file using **File > Save**, or use keyboard shortcuts (<span class="keyboard">CMD</span>+<span class="keyboard">S</span> or
+<span class="keyboard">CONTROL</span>+<span class="keyboard">S</span>)
+3. Right click and select Open in Browser.
+4. Change something else and open it in your browser again, just to make sure you've got it!
+5. After saving, you can also just refresh your browser to see the changes (rather than opening your file in a new tab every time).
+
 <div class="note tip">
   Don't be scared about breaking anything or doing something wrong. Play around, take risks, experiment and make mistakes. That's the best way to learn.
 
@@ -38,24 +51,78 @@ With the entire folder selected, click Open.
 ##What are HTML & CSS?
 HTML & CSS are languages used to format how a website will look.
 
-###HTML
-**HTML** stands for **HyperText Markup Language**. But all you need to know is that it is a markup language. It tells the web browser what elements aka "content" to display. HTML uses a pre-defined set of [elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). HTML does not do the styling of the content.
+###HTML (HyperText Markup Language)
+HTML is used to describe each part of a webpage to the browser. It tells the web browser what elements to display. HTML uses a pre-defined set of [elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
-Example HTML
-{% highlight html %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+To display content properly in the browser, we use tags to start and end an element. Here are a few examples of common HTML tags:
 
-</body>
-</html>
+This starts and ends a `h1` header1 element.
+
++ `<h1>` and `</h1>`.
+
+This starts and ends a `p` paragraph element.
+
++ `<p>` and `</p>`.
+
+This starts and ends a `strong` which is a bolded + emphasized element
+
++ `<strong>` and `</strong>`.
+
+For the browser to recogize these tags as HTML, we need to create an HTML file.
+
+####Good file naming habits
+To create an HTML web page, just name your file using the .html extension (much like .pdf for PDF files or .doc for Word files).
+
++ Use lowercase letters.
+    * `about.html` instead of `About.html` or `ABOUT.html`
++ Avoid s p a c e s. Use underscores (_) or dashes (-). Dashes are generally preferred for SEO (search engine optimization).
+    * `business_hours.html` or `business-hours.html` instead of `business hours.html`
+(The browser will interpret it as `business%20hours.html`)
++ Avoid symbols like `# & *` in your file name.
++ Keep your file names concise, yet meaningful.
+    * about.html, contact.html instead of page1.html, page2.html
+
+These file naming tips can be applied to any type of files such as images, folders, CSS, etc.
+
+####Quick exercise: Saving a new file as an HTML file
+1. In Sublime Text, click **File > New File**
+2. By default, the file type is plain text, not HTML. You have two choices for saving this file as an HTML file.
+    * Option 1: On the bottom right corner, you should see the words Plain Text. Click it and select HTML from the list. Save the file using (<span class="keyboard">CMD</span>+<span class="keyboard">S</span> or
+<span class="keyboard">CONTROL</span>+<span class="keyboard">S</span>). Name it anything but be sure it ends with `.html`. You can save the file anywhere - we won't be using it for anything else.
+    * Option 2: From the menu bar, select **File > Save As**. Give your file a name and add `.html` at the end. Click save.
+
+####Nut & Bolts of HTML
+When writing HTML, we create HTML elements by wrapping our content in tags. These tags describe the content that is inside of them, NOT what they look like.
+
+For example, the paragraph tag (`<p>paragraph content</p>`) is used to describe the content in between as being a paragraph, not it's color or any other style.
+
+We use different kinds of tags to create multiple elements and all together they make up our HTML Document.
+
+It is important to understand that HTML has very little to do with the style of your website or the look of the content - that is what CSS is for.
+
+####Tags that you should no longer use!
+It’s very important to create semantic, clean and valid markup before doing anything else. Older versions of HTML used to include tags that were used for defining styles, which is now handled with CSS instead.
+
+Here are a few examples of old tags that are **no longer used:**
+
++ `<u>`I'm underlined!`</u>`
++ `<marquee>`Anyone remember the marquee tag?`</marquee>`
++ `<font size="large">`HUGE FONTS!`</font>`
++ `<center>`I'm centered text!`</center>`
++ `<b>`I'm Bold text!`</b>`*
++ `<i>`I'm Italic!`</i>`*
+
+###CSS (Cascading Style Sheets)
+CSS is the presentation layer. In other words, it makes websites look nice.  
+HTML tells the browser what different parts of the page mean, CSS tells the browser what those parts should look like.  
+For example, p means paragraph in HTML. But if we wanted to make all of our paragraphs red and underlined, in CSS we'd do something like this:
+
+{% highlight css %}
+p {
+  color: red;
+  text-decoration: underline;
+}
 {% endhighlight %}
-
-###CSS
 
 ##Pratice
 Try going through the interactive tutorials on [https://dash.generalassemb.ly/](https://dash.generalassemb.ly/.) to get more familar with html & css. When feel like you got the hang of html & css come back and finish this workshop.
@@ -89,7 +156,7 @@ The output (what you'll see in your browser) of this exercise is shown below. Wr
 <p data-height="266" data-theme-id="8773" data-slug-hash="JeCfb" data-default-tab="result" data-user="jimicy" class='codepen'>See the Pen <a href='http://codepen.io/jimicy/pen/JeCfb/'>JeCfb</a> by jimmy wang (<a href='http://codepen.io/jimicy'>@jimicy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
 
-Notice the images 
+Notice the images have `src="http://i.imgur.com/f6zv8kZ.png"` this means the image is hosted online. But you'll probably want to do something like `src="images/profile.jpg"`
 
 ##Going live
 Ok so you're comfortable with html & css and want to have your site on the **internet**. So how do you make it live?
