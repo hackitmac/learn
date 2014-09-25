@@ -4,11 +4,6 @@ em {
   padding-right: 2px;
 }
 
-.highlight > pre,
-code.prettyprint {
-  color: white; /* default color in case offline */
-}
-
 /* Codelab article */
 
 .social {
@@ -119,4 +114,11 @@ code.prettyprint {
 }
 .codelab-paging a:nth-of-type(2) {
   margin-left: 1em;
+}
+
+img {
+  margin: 0 auto;
+  max-width: auto;
+  max-height: 500px;
+  display: block;
 }
