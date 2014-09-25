@@ -81,3 +81,33 @@
   - name: 30 Days to Learn jQuery
     description: "A video series which emails you a video once a day for 30 days in order to provide step-by-step instruction in learning to use jQuery."
     link: https://tutsplus.com/course/30-days-to-learn-jquery
+
+- name: Git
+  description: "Git is a Version Control System (VCS), which lets you track changes to code over time and collaborate with others. A VCS is critical to working on any medium-to-large application, and really helpful when working on a project with someone else."
+  resources:
+  - name: Try Git
+    description: "A really awesome in-browser tutorial/game that lets you get a feel for what git is like, interactively."
+    link: http://try.github.io/
+  
+  - name: Pro Git
+    description: "Pro Git, available freely on the git website, is an excellent book covering all aspects of git, including use and inner workings. A must-read to fully understand git."
+    link: http://git-scm.com/book
+  
+  - name: GitHub
+    description: "GitHub is a website that hosts git repositories. It lets you store a shared copy of code that you're working on with someone else, as well as see others' code and contribute to open source projects."
+    link: http://github.com/
+    
+- name: Storage (databases)
+  description: "If you want to save information when a user leaves your app or coordinate between different users, you need a database of some sort. Here are some good options to get started."
+  resources: 
+  - name: SQLite
+    description: "A \"relational\" database-think about it like an Excel spreadsheet, but stricter, bigger, and more powerful. It might already be installed and it's really easy to set up a database. Note that you'll need to learn the basics of Structured Query Language (SQL) in order to use it."
+    link: http://sqlite.org/quickstart.html
+    
+  - name: MonogoDB
+    description: "A \"non-relational\" database. You put whole \"objects\" in and can query them in simple or complicated ways. Check out the interactive dmeo!"
+    link: http://try.mongodb.org/
+    
+  - name: MariaDB (MySQL)
+    description: "Another \"relational\" database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for \"MySQL\" nowadays."
+    link https://mariadb.org/
