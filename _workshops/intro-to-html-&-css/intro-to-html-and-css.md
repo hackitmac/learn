@@ -4,7 +4,8 @@ module: Intro to HTML & CSS
 track: Web Developer
 ---
 testing
-```html
+
+{% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,4 +16,17 @@ testing
 
 </body>
 </html>
-```
+{% endhighlight %}
+
+~~~ html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+~~~
