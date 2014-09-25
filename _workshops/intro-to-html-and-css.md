@@ -51,7 +51,7 @@ With the entire folder selected, click Open.
 ##What are HTML & CSS?
 HTML & CSS are languages used to format how a website will look.
 
-###HTML (HyperText Markup Language)
+##HTML (HyperText Markup Language)
 HTML is used to describe each part of a webpage to the browser. It tells the web browser what elements to display. HTML uses a pre-defined set of [elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
 To display content properly in the browser, we use tags to start and end an element. Here are a few examples of common HTML tags:
@@ -112,7 +112,7 @@ Here are a few examples of old tags that are **no longer used:**
 + `<b>`I'm Bold text!`</b>`*
 + `<i>`I'm Italic!`</i>`*
 
-###CSS (Cascading Style Sheets)
+##CSS (Cascading Style Sheets)
 CSS is the presentation layer. In other words, it makes websites look nice.  
 HTML tells the browser what different parts of the page mean, CSS tells the browser what those parts should look like.  
 For example, p means paragraph in HTML. But if we wanted to make all of our paragraphs red and underlined, in CSS we'd do something like this:
@@ -123,6 +123,14 @@ p {
   text-decoration: underline;
 }
 {% endhighlight %}
+
+##Your first web page
+Let's add the previous slide's CSS snippit to our HTML document.
+
+To indicate that we're adding CSS to `blank.html`, we need to find the opening and closing `<style>` tags between our `<head>` tags.
+
+<p data-height="266" data-theme-id="8773" data-slug-hash="woGgA" data-default-tab="result" data-user="jimicy" class='codepen'>See the Pen <a href='http://codepen.io/jimicy/pen/woGgA/'>woGgA</a> by jimmy wang (<a href='http://codepen.io/jimicy'>@jimicy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
 
 ##Pratice
 Try going through the interactive tutorials on [https://dash.generalassemb.ly/](https://dash.generalassemb.ly/.) to get more familar with html & css. When feel like you got the hang of html & css come back and finish this workshop.
