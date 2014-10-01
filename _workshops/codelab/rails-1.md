@@ -34,6 +34,8 @@ This will start a Rails development server on your machine, that you can access 
 
 You should see a default Rails page.  Press Ctrl+C on your Terminal to stop the server.
 
+Throughout the tutorial, you will have to stop and restart your server fairly often, and run several rails commands.
+Any commands starting with ```rake``` or ```rails``` must be run inside your ```/blog``` folder
 
 
 <p class="codelab-paging">

@@ -18,11 +18,11 @@ def create
 end
 {% endhighlight %}
 
-Here's what's going on: every Rails model can be initialized with its respective attributes, which are automatically mapped to the respective database columns. In the first line we do just that (remember that params[:article] contains the attributes we're interested in). Then, @article.save is responsible for saving the model in the database. Finally, we redirect the user to the show action, which we'll define later.
+Here's what's going on: every Rails model can be initialized with its respective attributes, which are automatically mapped to the respective database columns. In the first line we do just that (remember that ```params[:article]``` contains the attributes we're interested in). Then, ```@article.save``` is responsible for saving the model in the database. Finally, we redirect the user to the show action, which we'll define later.
 
 If you now go to [http://localhost:3000/articles/new](http://localhost:3000/articles/new) you'll almost be able to create an article. Try it! You should get an error that looks like ```ActiveModel::ForbiddenAttributesError in ArticlesController#create```
 
-Rails has several security features that help you write secure applications, and you're running into one of them now. This one is called strong_parameters, which requires us to tell Rails exactly which parameters we want to accept in our controllers. In this case, we want to allow the title and body parameters, so add the new article_params method, and change your create controller action to use it, like this:
+Rails has several security features that help you write secure applications, and you're running into one of them now. This one is called strong_parameters, which requires us to tell Rails exactly which parameters we want to accept in our controllers. In this case, we want to allow the title and body parameters, so add the new ```article_params``` method, and change your create controller action to use it, like this:
 
 {% highlight css %}
 def create
@@ -59,7 +59,7 @@ end
 
 A couple of things to note. We use Article.find to find the article we're interested in, passing in ```params[:id]``` to get the ```:id``` parameter from the request. We also use an instance variable (prefixed by @) to hold a reference to the article object. We do this because Rails will pass all instance variables to the view.
 
-Now, create a new file ```app/views/articles/show.html.erb``` with the following content:
+Now, create a new file ```/blog/app/views/articles/show.html.erb``` with the following content:
 
 {% highlight css %}
 <p>

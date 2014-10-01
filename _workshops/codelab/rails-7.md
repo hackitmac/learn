@@ -13,7 +13,7 @@ def edit
 end
 {% endhighlight %}
 
-The view will contain a form similar to the one we used when creating new articles. Create a file called ```app/views/articles/edit.html.erb``` and make it look as follows:
+The view will contain a form similar to the one we used when creating new articles. Create a file called ```/blog/app/views/articles/edit.html.erb``` and make it look as follows:
 
 {% highlight css %}
 <h1>Editing article</h1>
@@ -71,7 +71,7 @@ private
   end
 {% endhighlight%}
 
-Finally, we want to show a link to the edit action in the list of all the articles, so let's add that now to app/views/articles/index.html.erb to make it appear next to the "Show" link:
+Finally, we want to show a link to the edit action in the list of all the articles, so let's add that now to ```/blog/app/views/articles/index.html.erb``` to make it appear next to the "Show" link:
 
 {% highlight css %}
 <table>

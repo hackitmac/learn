@@ -43,8 +43,8 @@ end
 Again, open [http://localhost:3000/articles/new](http://localhost:3000/articles/new) , another error!  ```Template is missing```.  Rails is telling us that we have our Controller built, but that there is no View to link it to.
 
 
-In Rails, the action ```new``` in ```/blog/app/controllers/articles_controller.rb``` corresponds with the template file ```/blog/view/articles/new.html.erb```.  Rails is complaining that this file doesn't exist.
-We can fix this by heading over to ```/blog/view/articles/```, and creating a file called new.html.erb.
+In Rails, the action ```new``` in ```/blog/app/controllers/articles_controller.rb``` corresponds with the template file ```/blog/app/view/articles/new.html.erb```.  Rails is complaining that this file doesn't exist.
+We can fix this by heading over to ```/blog/app/view/articles/```, and creating a file called new.html.erb.
 
 Fill it with the following:
 {% highlight css %}

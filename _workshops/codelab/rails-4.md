@@ -14,7 +14,7 @@ rails generate model Article title:string body:text
 
 What this does is tell Rails to create a model migration, of a model called Article, which has the "Title" of type "string", and "body" of type "text"
 
-If you look in the db/migrate/2014XXXXXXXX_create_articles.rb file, you will see the actions that rails will take once you tell it to migrate the change.
+If you look in the ```/blog/db/migrate/2014XXXXXXXX_create_articles.rb``` file, you will see the actions that rails will take once you tell it to migrate the change.
 
 Head back over to your terminal:
 {% highlight css %}

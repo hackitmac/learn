@@ -5,8 +5,8 @@ track: Web Developer
 ---
 ##Making our first Controller and View
 We don't need a model yet, because we're just trying to show a static page.
-A controller is meant to recieve requests, which are directed to specific actions within it.  Actions are in charge of all the back-end logic, such as calculations needing to be done on a server, or accessing database entries, and providing that data to a View.
-A view is basically a layout (often written in css/html) in which the data is shown.
+A ```controller``` is meant to recieve requests, which are directed to specific ```actions``` within it.  ```Actions``` are in charge of all the back-end logic, such as calculations needing to be done on a server, or accessing database entries, and providing that data to a View.
+A ```view```, also known as a ```template```, is a layout (often written in css/html) in which the data is shown.
 
 
 ###Generating our controller
@@ -19,7 +19,7 @@ This creates a controller called welcome, with an action index.  You can always 
 You'll see that files have been generated.  The files we are concerned with are the controller, ```/blog/app/controllers/welcome_controller.rb```, and the view, ```/blog/app/views/welcome/index.html.erb```.  Go ahead and open both of these in your text editor, we'll be working with them later.  For now, delete all the code in index.html.erb and type some text or code of your own.
 
 ###Routes
-Routes tell your application where to connect incoming requests to controllers and actions.
+```Routes``` tell your application where to connect incoming requests to ```controllers``` and ```actions```.
 Go ahead and open ```/blog/config/routes.rb```
 
 Find the line containing ```root 'welcome#index'``` and uncomment it.

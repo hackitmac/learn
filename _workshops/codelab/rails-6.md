@@ -11,13 +11,13 @@ Remember that rake routes gives us the following for "index"
 articles GET    /articles(.:format)          articles#index
 {% endhighlight %}
 
-Add the corresponding index action for that route inside the ArticlesController in the app/controllers/articles_controller.rb file:
+Add the corresponding index action for that route inside the ArticlesController in the ```/blog/app/controllers/articles_controller.rb``` file:
 {% highlight css %}
 def index
   @articles = Article.all
 end
 {% endhighlight%}
-And then finally, add view for this action, located at app/views/articles/index.html.erb:
+And then finally, add view for this action, located at ```/blog/app/views/articles/index.html.erb```:
 {% highlight css %}
 <h1>Listing articles</h1>
  
