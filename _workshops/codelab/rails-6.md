@@ -46,7 +46,7 @@ Open up ```/blog/app/views/articles/index.html.erb```, and add the following cod
 {% endhighlight%}
 ####Code Explanation
 In .erb files, ```<%=``` and ```%>``` are the tags that tell Rails to run Ruby code, rather than just printing out as html.
-We call ```link_to``` with two arguments, the first one, ```'New article'```, is how the link should be displayed, and ```new_article_path``` is where the link leads to.
+We call ```link_to``` with two arguments, the first one, ```'New article'```, is the text that will be displayed, and ```new_article_path``` is where the link leads to.
 
 Next, we'll add "back" links to our articles, and our article creation forms by putting
 {% highlight css %}
