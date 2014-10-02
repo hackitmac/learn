@@ -25,7 +25,7 @@ rails new blog
 When this command finishes running, you should see that a bunch of files have been generated, go ahead and look around.
 99% of the stuff that you regularly need will be in one of three folders: ```/blog```, ```/blog/config```, and ```/blog/app```.
 
-Once you're done looking around, go back to your terminal and type
+Once you're done looking around, go back to your terminal, cd into ```/blog```, and type
 {% highlight css %}
 rails server
 {% endhighlight %}
