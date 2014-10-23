@@ -6,7 +6,7 @@ track: Web Developer
 
 ##Let's get set up
 
-You'll want to install Sublime Text, or open up your favourite editor, along with Ruby on Rails for your OS.
+You'll want to install Sublime Text, or open up your favourite editor. You'll also need Ruby on Rails for your OS.
 
 ###[Sublime Text](http://www.sublimetext.com/)
 
@@ -34,8 +34,8 @@ This will start a Rails development server on your machine, that you can access 
 
 You should see a default Rails page.  Press Ctrl+C on your Terminal to stop the server.
 
-Throughout the tutorial, you will have to stop and restart your server fairly often, and run several rails commands.
-Any commands starting with ```rake``` or ```rails``` must be run inside your ```/blog``` folder
+Throughout the rest of the tutorial, you will have to stop and restart your server fairly often, and run several rails commands.
+Any further commands starting with ```rake``` or ```rails``` must be run inside your ```/blog``` folder
 
 
 <p class="codelab-paging">
