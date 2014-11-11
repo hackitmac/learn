@@ -56,6 +56,10 @@
     description: "Dedicated to the world of CSS and related technologies. Snippets, videos, tricks and tutorials."
     link: http://css-tricks.com/
     
+  - name: Codrops
+    description: "Great site with more advanced web demos and article on how to make them. Good for inspiration"
+    link: http://tympanus.net/codrops/
+    
 - name: JavaScript
   description: "The programming language of the web. If you want your web site/app to move, change, or communicate, learn JavaScript."
   resources:
