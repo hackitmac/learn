@@ -49,7 +49,7 @@ note: git add does not actually upload any files. You use git add to choose whic
 
 git commit will "confirms" what you're about to upload and "locks it in" so that it'll be ready for you to upload.
 
->git remote add origin "url of the github repository you created"
+>git remote add origin "url of the github repository you created"  
 >git push -u origin master
 
 After this step you should see that the files have been uploaded. git push is the step which actually uploads everything that you've committed.
