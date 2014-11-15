@@ -18,7 +18,7 @@ After creating a Github account we would want to initialize everything on our lo
 
 Open up the command line and enter
 
->git config --global user.name "Whatever you used as your username"
+>git config --global user.name "Whatever you used as your username"  
 >git config --global user.email "Whatever you used as the email"
 
 ###Starting to Upload Files###
