@@ -1,3 +1,9 @@
+---
+layout: workshop
+module: Intro to Git
+track: misc
+---
+
 #**Intro to Git**#
 This is a tutorial designed for beginners with the goal of teaching them how to use the command line to start contributing to Github repos.
 ________________________
