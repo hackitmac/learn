@@ -17,10 +17,6 @@
     description: "Interactive, online tutorial to learn to HTML and CSS. No experience necessary, and great for learning HTML and CSS together."
     link: http://www.codecademy.com/tracks/web
     
-  - name: W3Schools
-    description: "Straight foward explanation on Web Development luanguages. Ranged from beginner to experienced users. Sometimes materials are easier to understand than MDN (Mozilla Developer Network), but once you are ready to level up, move on."
-    link: http://www.w3schools.com/
-    
   - name: HTML5 Rocks
     description: "Promotes innovations and describes best practices in HTML5. Once you've mastered the basics, check in here regularly."
     link: http://www.html5rocks.com/en/
@@ -28,6 +24,10 @@
   - name: HTML5 Boilerplate
     description: "The web's most popular front-end template. Starting a new project? Hit the ground running with HTML5 Boilerplate."
     link: http://html5boilerplate.com/
+  
+  - name: Dash
+    description: "Interactive exercises and project based learning for hmtl & css"
+    link: http://learnlayout.com/
     
 - name: CSS
   description: "The code that styles HTML: dictates look, layout, and general presentation. Once you've laid out your content using HTML, use CSS to make it look good."
@@ -44,13 +44,21 @@
     description: "Interactive, online tutorial to learn to HTML and CSS. No experience necessary, and great for learning HTML and CSS together."
     link: http://www.codecademy.com/tracks/web
     
-  - name: W3Schools
-    description: "Straight foward explanation on Web Development luanguages. Ranged from beginner to experienced users. Sometimes materials are easier to understand than MDN (Mozilla Developer Network), but once you are ready to level up, move on."
-    link: http://www.w3schools.com/
+  - name: Learn CSS layout
+    description: "Learn how layouts, postions and box model work in css"
+    link: http://learnlayout.com/
+    
+  - name: Magic of css
+    description: "Great resource for learning the in and outs of css"
+    link: http://adamschwartz.co/magic-of-css/
 
   - name: CSS-Tricks
     description: "Dedicated to the world of CSS and related technologies. Snippets, videos, tricks and tutorials."
     link: http://css-tricks.com/
+    
+  - name: Codrops
+    description: "Great site with more advanced web demos and article on how to make them. Good for inspiration"
+    link: http://tympanus.net/codrops/
     
 - name: JavaScript
   description: "The programming language of the web. If you want your web site/app to move, change, or communicate, learn JavaScript."
