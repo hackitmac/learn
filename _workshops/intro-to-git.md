@@ -32,7 +32,7 @@ Here you would specify some of the details of what your repository will contain.
 
 After specifying the details of your soon to be live repository you will then
 
->cd "(directory of the folder in which the files you want uploaded to be)"
+>cd "(directory of the folder in which the files you want uploaded to be)"  
 >git init
 
 note: cd stands for change directory and is used to navigate around your machine.
