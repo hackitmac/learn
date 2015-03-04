@@ -1,4 +1,5 @@
-#Amyhest
+#Amethyst
+See it in use at: [http://hackitmac.com/learn/](http://hackitmac.com/learn/)
 
 >We want to empower programmers to make educational sessions!
 
