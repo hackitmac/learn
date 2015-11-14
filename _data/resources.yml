@@ -142,3 +142,16 @@
   - name: Amazon Web Services
     description: "Amazon Web Services (AWS) is a cloud hosting provider that has a bunch of cloud options, the easiest of which is Elastic Cloud Compute (EC2). EC2 just gives you a virtual machine in one of their data centers that you control completely, so it's a very flexible option."
     link: http://aws.amazon.com/
+
+- name: iOS Development
+  - name: Stanford iOS Course
+    description: "An excellent course on iOS development with Swift"
+    link: https://itunes.apple.com/ca/course/developing-ios-8-apps-swift/id961180099
+
+  - name: Design + Code
+    link: https://designcode.io
+
+  - name: The Swift Programming Language
+    description: "A book about development using Swift by Apple"
+    link: https://itunes.apple.com/ca/book/swift-programming-language/id881256329?mt=11
+
