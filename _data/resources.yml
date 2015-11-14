@@ -144,11 +144,14 @@
     link: http://aws.amazon.com/
 
 - name: iOS Development
+  description: "Programming for Apple devices"
+  link: 
   - name: Stanford iOS Course
     description: "An excellent course on iOS development with Swift"
     link: https://itunes.apple.com/ca/course/developing-ios-8-apps-swift/id961180099
 
   - name: Design + Code
+    description:
     link: https://designcode.io
 
   - name: The Swift Programming Language
