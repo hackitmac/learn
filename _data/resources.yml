@@ -144,17 +144,17 @@
     link: http://aws.amazon.com/
 
 - name: iOS Development
-  description: "Programming for Apple devices"
+  description: "Programming for Apple devices."
   link: 
   - name: Stanford iOS Course
-    description: "An excellent course on iOS development with Swift"
+    description: "An excellent course on iOS development with Swift."
     link: https://itunes.apple.com/ca/course/developing-ios-8-apps-swift/id961180099
 
   - name: Design + Code
-    description:
+    description: "A book about iOS design and prototyping using Sketch and Xcode."
     link: https://designcode.io
 
   - name: The Swift Programming Language
-    description: "A book about development using Swift by Apple"
+    description: "A book about development using Swift by Apple."
     link: https://itunes.apple.com/ca/book/swift-programming-language/id881256329?mt=11
 
