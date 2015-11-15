@@ -145,7 +145,7 @@
 
 - name: iOS Development
   description: "Programming for Apple devices."
-  link: 
+  resources:
   - name: Stanford iOS Course
     description: "An excellent course on iOS development with Swift."
     link: https://itunes.apple.com/ca/course/developing-ios-8-apps-swift/id961180099
